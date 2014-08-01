@@ -107,7 +107,7 @@ public class ViewMapFragment extends Fragment {
             }
         });
 
-
+        //TEST
         map.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
             @Override
             public View getInfoWindow(Marker marker) {
