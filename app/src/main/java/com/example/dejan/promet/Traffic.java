@@ -194,7 +194,7 @@ public class Traffic extends FragmentActivity implements NoInternetDialog.NoInte
     private class TabsPagerAdapter extends FragmentStatePagerAdapter {
 
         // number of tabs
-        private static final int PAGE_COUNT = 3;
+        private static final int PAGE_COUNT = 4;
 
         public TabsPagerAdapter(FragmentManager fm){
             super(fm);
@@ -207,6 +207,7 @@ public class Traffic extends FragmentActivity implements NoInternetDialog.NoInte
                 case 0: return new TrafficFragment();
                 case 1: return new ViewMapFragment();
                 case 2: return new ReportFragment();
+                case 3: return new TwitterFragment();
             }
             return null;
         }

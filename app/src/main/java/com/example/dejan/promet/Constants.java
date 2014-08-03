@@ -34,7 +34,7 @@ public class Constants {
              SIGN_IMG.put("zastoj", R.drawable.zastoj);
          }
 
-        public static final String titles[] = {"Vnos potovanja", "Zemljevid", "Prometno poročilo"};
+        public static final String titles[] = {"Vnos potovanja", "Zemljevid", "Prometno poročilo","DARS Twitter"};
 
     public static SparseArray<Integer> zoomDist = new SparseArray<Integer>() {
 
